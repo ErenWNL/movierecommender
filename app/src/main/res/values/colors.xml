@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme colors (preserved from original) -->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#E91E63</color>
+
+    <!-- Action colors (preserved from original) -->
+    <color name="favorite">#E91E63</color>
+    <color name="watched">#4CAF50</color>
+    <color name="disliked">#FF5722</color>
+
+    <!-- Text colors (preserved from original) -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+
+    <!-- Background colors (preserved from original) -->
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Additional colors for enhanced layout -->
+    <color name="card_background">@color/white</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="transparent">#00000000</color>
+    <color name="scrim">#99000000</color>
+
+    <!-- Rating colors -->
+    <color name="rating_color">#FFC107</color>
+    <color name="rating_inactive">#E0E0E0</color>
+    <color name="rating_background">@color/accent</color>
+    <color name="rating_high">#4CAF50</color>
+    <color name="rating_medium">#FFC107</color>
+    <color name="rating_low">#F44336</color>
+
+    <!-- Chip colors -->
+    <color name="chip_background">#EEEEEE</color>
+    <color name="chip_text">@color/primary_text</color>
+    <color name="chip_selected_background">#E3F2FD</color>
+    <color name="chip_selected_text">@color/primary</color>
+
+    <!-- Surface colors -->
+    <color name="surface">@color/white</color>
+    <color name="ripple_color">#33000000</color>
+    <color name="metadata_background">#EEEEEE</color>
+    <color name="divider_color">#E0E0E0</color>
+
+    <!-- Placeholder colors -->
+    <color name="poster_placeholder">#EEEEEE</color>
+    <color name="avatar_placeholder">#E0E0E0</color>
+    <color name="fab_color">@color/accent</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingStart="0dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="2dp">
+
+        <ImageView
+            android:id="@+id/actor_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/actor_photo"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/actor_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@color/primary_text"
+        android:textSize="12sp"
+        tools:text="Leonardo DiCaprio" />
+
+    <TextView
+        android:id="@+id/character_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/secondary_text"
+        android:textSize="10sp"
+        tools:ignore="SmallSp"
+        tools:text="Dom Cobb" />
+
+</LinearLayout>

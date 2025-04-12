@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Recommender</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_recommendations">Recommendations</string>
+    <string name="nav_watched">Watched</string>
+    <string name="nav_favorites">Favorites</string>
+
+    <!-- Movie Details -->
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_backdrop">Movie Backdrop</string>
+    <string name="overview">Overview</string>
+    <string name="genres">Genres</string>
+    <string name="director">Director</string>
+    <string name="cast">Cast</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="mark_as_watched">Mark as Watched</string>
+    <string name="dislike_movie">Dislike Movie</string>
+
+    <!-- Empty Views -->
+    <string name="no_recommendations">No recommendations available yet. Start rating movies to get personalized recommendations!</string>
+    <string name="no_watched_movies">You haven\'t watched any movies yet. Mark movies as watched to see them here.</string>
+    <string name="no_favorite_movies">You haven\'t added any favorite movies yet. Add movies to your favorites to see them here.</string>
+
+    <!-- Dialog -->
+    <string name="rate_movie">Rate: %1$s</string>
+    <string name="rate_movie_placeholder">Rate this movie</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+
+    <!-- Toasts -->
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="added_to_watched">Added to watched</string>
+    <string name="removed_from_watched">Removed from watched</string>
+    <string name="added_to_disliked">Added to disliked</string>
+    <string name="removed_from_disliked">Removed from disliked</string>
+
+    <string name="actor_photo">Actor Photo</string>
+
+</resources>
